@@ -1,15 +1,16 @@
-﻿using System;
+using Humanizer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CEVACodeTest
+namespace CEVACodeTestHumanizer
 {
     class UserInput
     {
         /*
-         * This method instantiates the NumberToWords class and retrieves user input.
+         * This method utilises the Humanizer library to convert numbers to words.
          * It retrieves the Date by utilising the DateTime struct and then converting to a 'Short'
          * date string to eliminate the time portion.
          * 
@@ -21,7 +22,6 @@ namespace CEVACodeTest
          */
         public void GetUserInput()
         {
-            NumbersToWords ConvertToWords = new NumbersToWords();
             DateTime currentDateAndTime = DateTime.Now;
             string currentDate = currentDateAndTime.ToShortDateString();
             Console.Write("Enter your name: ");
@@ -35,7 +35,7 @@ namespace CEVACodeTest
                 {
                     Console.WriteLine(name);
                     Console.WriteLine(currentDate);
-                    Console.WriteLine(ConvertToWords.IntegerToWords(Convert.ToInt64(num)));
+                    Console.WriteLine(Convert.ToInt64(num).ToWords());
                     Console.Read();
                     break;
                 }
