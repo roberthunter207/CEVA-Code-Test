@@ -1,0 +1,6 @@
+C:\Users\Rob\source\repos\CEVACodeTest\bin\Debug\CEVACodeTest.exe.config
+C:\Users\Rob\source\repos\CEVACodeTest\bin\Debug\CEVACodeTest.exe
+C:\Users\Rob\source\repos\CEVACodeTest\bin\Debug\CEVACodeTest.pdb
+C:\Users\Rob\source\repos\CEVACodeTest\obj\Debug\CEVACodeTest.csprojAssemblyReference.cache
+C:\Users\Rob\source\repos\CEVACodeTest\obj\Debug\CEVACodeTest.exe
+C:\Users\Rob\source\repos\CEVACodeTest\obj\Debug\CEVACodeTest.pdb
